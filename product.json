@@ -23,7 +23,7 @@
     },
     "additionalBuiltinExtensions": [
       {
-        "scheme": "https",
+        "scheme": "http",
         "path": "vscode-asset/webfs"
       }
     ]
