@@ -3,6 +3,9 @@
       "nameShort": "VSCode Web Sample",
       "nameLong": "VSCode Web without FileSystemProvider",
       "applicationName": "code-web-sample",
+       "webEndpointUrlTemplate": "https://{{uuid}}.tianbowang.github.io/vscode-asset/static",
+    
+	"webviewContentExternalBaseUrlTemplate": "https://{{uuid}}.tianbowang.github.io/vscode-asset/static/out/vs/workbench/contrib/webview/browser/pre/",
       "dataFolderName": ".vscode-web-sample",
       "version": "1.75.0",
       "extensionsGallery": {
