@@ -503,7 +503,7 @@ define(__m[0/*vs/code/browser/workbench/workbench*/], __M([1/*require*/,2/*expor
             config = window.product;
         }
         else {
-            const result = await fetch("/product.json");
+            const result = await fetch("https://tianbowang.github.io/vscode-asset/product.json");
             config = await result.json();
         }
         if (Array.isArray(config.additionalBuiltinExtensions)) {
