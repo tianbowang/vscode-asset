@@ -1,5 +1,7 @@
 {
     "productConfiguration": {
+      "commit": "test commit",
+      "quality": "test quality",
       "nameShort": "VSCode Web Sample",
       "nameLong": "VSCode Web without FileSystemProvider",
       "applicationName": "code-web-sample",
